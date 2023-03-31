@@ -96,7 +96,7 @@ def my_draw(a_v, a_f):
     glEnd()
     
 # 파일에서 기존의 데이터 로드
-my_vex, my_face = my_3DFileLoader('C:/Temp/tetrahedron 3d model.txt')
+my_vex, my_face = my_3DFileLoader('tetra.txt')
                                   
 # 삼각뿔 추가
 my_vex, my_face = generate_additional_tetrahedron(my_vex, my_face)
